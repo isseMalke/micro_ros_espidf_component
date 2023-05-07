@@ -66,6 +66,7 @@ $(EXTENSIONS_DIR)/micro_ros_src/src:
 	git clone -b foxy https://github.com/ros2/test_interface_files src/test_interface_files; \
 	git clone -b foxy https://github.com/ros2/rmw_implementation src/rmw_implementation; \
 	git clone -b foxy_microros https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing src/ros2_tracing; \
+	git clone https://github.com/isseMalke/micro_ros_omnisensor_msgs.git; \
 	touch src/rosidl/rosidl_typesupport_introspection_c/COLCON_IGNORE; \
     touch src/rosidl/rosidl_typesupport_introspection_cpp/COLCON_IGNORE; \
     touch src/rclc/rclc_examples/COLCON_IGNORE; \
